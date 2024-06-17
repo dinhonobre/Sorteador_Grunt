@@ -1,22 +1,7 @@
     {
         "rewrites": [
         { "source": "/(.*)", "destination": "/index.html" }
-        ],
-        "builds": [
-        {
-            "src": "src/index.html",
-            "use": "@vercel/static"
-        },
-        {
-            "src": "src/styles/main.css",
-            "use": "@vercel/static"
-        },
-        {
-            "src": "src/scripts/main.js",
-            "use": "@vercel/static"
-        }
-        ],
-        "cleanUrls": true
+        ]
 }
 
     
