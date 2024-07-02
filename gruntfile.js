@@ -57,7 +57,7 @@ module.exports = function(grunt){
                         },
                         {
                             match: 'ENDERECO_DO_JS', // Placeholder para o endereço do JavaScript
-                            replacement: './dist/scripts/main.min.js' // Substitui pelo endereço do JavaScript em src/scripts/
+                            replacement: './scripts/main.min.js' // Substitui pelo endereço do JavaScript em src/scripts/
                         }
                     ]
                 },
